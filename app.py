@@ -5,8 +5,8 @@ import pandas as pd
 st.title("五十嵐問題ソルバー")
 
 # 入力
-n = st.number_input("n を入力", min_value=1, value=3)
-max_prime = st.number_input("最大素数 (maxPrime)", min_value=3, value=50)
+n = st.number_input("n を入力", min_value=1, value=5)
+max_prime = st.number_input("最大素数 (maxPrime)", min_value=3, value=7)
 
 # 奇素数リスト
 primes = [p for p in primerange(3, max_prime + 1)]
